@@ -18,8 +18,8 @@ st.set_page_config(
 
 # Load Source File
 
-file_path = r"D:\Modul Phyton\project_streamlit\dashboard\Real_Estate_Sales_2001-2022_GL.csv"
-df = pd.read_csv(file_path)
+url = "https://raw.githubusercontent.com/karelwidjaja1983/dashboard_realestate/refs/heads/main/Real_Estate_Sales_2001-2022_GL.csv"
+df = pd.read_csv(url)
 
 # Rename Field
 df = df.rename(columns={
